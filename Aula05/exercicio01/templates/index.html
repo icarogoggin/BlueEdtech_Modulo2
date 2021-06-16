@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <title>BEM - Banco de Emprego Municial</title>
+    </head>
+
+    <body>  
+        <div>
+            <h1 id="titulo">Banco de Emprego Municipal</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+        <form action="" method="POST"> 
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Seu primeiro nome" required>
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu Sobrenome" required>
+                <label for="datanascimento"><strong>Data de Nascimento</strong></label>
+                <input type="date" name="datanascimento" id="datanascimento" required>
+            </div>
+            <div>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor email" required>
+                <label for="Telefone"><strong>Telefone</strong></label>
+                <input type="number" name="telefone" id="telefone" placeholder="Apenas números" required>               
+            </div>
+            <div>
+                <br>
+                <label><strong>Qual sua Escolaridade?</strong></label>
+                <br>
+                <label>
+                    <input type="radio" name="escolaridade" value="fundamentalincompleto" checked>Fundamental Incompleto
+                </label>
+                <label>
+                    <input type="radio" name="escolaridade" value="fundamentalcompleto" checked>Fundamental Completo
+                </label>
+                <label>
+                    <input type="radio" name="escolaridade" value="medioincompleto" checked>Medio Incompleto
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="escolaridade" value="mediocompleto" checked>Medio Completo
+                </label>
+                <label>
+                    <input type="radio" name="escolaridade" value="superiorincompleto" checked>Superior Incompleto
+                </label>
+                <label>
+                    <input type="radio" name="escolaridade" value="superiorcompleto" checked>Superior Completo
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <br>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar">              
+
+        </form>
+
+    </body>
+
+</html>
