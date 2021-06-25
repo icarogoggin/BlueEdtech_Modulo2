@@ -6,3 +6,5 @@ SELECT nome, sobrenome, email FROM funcionarios WHERE cargo = 'Sales Rep'
 SELECT DISTINCT (cargo) FROM funcionarios
 /*4)Listar todas as cidades (sem repetir) em que a empresa possui lojas*/
 SELECT DISTINCT (cidade) FROM lojas
+/*5)Listar o nome, sobrenome e email , cidade, país e telefone da loja do presidente da empresa*/
+SELECT f.nome, f.sobrenome, f.email, l.cidade, l.pais, l.telefone FROM funcionarios f INNER JOIN lojas l ON f.codloja = l.codloja WHERE f.cargo = 'President';
