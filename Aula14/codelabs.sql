@@ -4,3 +4,5 @@ SELECT nome, sobrenome, email FROM funcionarios
 SELECT nome, sobrenome, email FROM funcionarios WHERE cargo = 'Sales Rep'
 /*3)Listar todos os cargos (sem repetir)*/
 SELECT DISTINCT (cargo) FROM funcionarios
+/*4)Listar todas as cidades (sem repetir) em que a empresa possui lojas*/
+SELECT DISTINCT (cidade) FROM lojas
