@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+    background: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.header{
+    padding-top: 5px;
+    background: #000;
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao{
+    background-color: #3359ec;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.796);
+}
+
+.botao:hover{
+    background-color: #5673ee;
+    transition: 0.25s;
+}
+
+.tabela{
+    border: 1px solid #adadad;
+    border-spacing: 0;
+    margin: 0 50px 20px;
+    width: 100%;
+}
+
+.tabela tr:nth-child(even) td{
+    background-color: white;
+}
+
+.tabela td{
+    padding: 10px;
+}
+
+.tabela_header td{
+    font-weight: bold;
+}
+
+.st {
+    width: 625px;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-family: 'ITC Benguiat W01';
+    font-weight: 600;
+    color: #1c0529;
+    text-shadow: -0.05rem -0.05rem 1px #415ca5,
+      0.05rem -0.05rem 1px #415ca5,
+      -0.05rem 0.05rem 1px #415ca5,
+      0.05rem 0.05rem 1px #415ca5,
+      0 0 15px #415ca5,
+      0 0 20px #415ca5;
+    letter-spacing: -2px;
+  }
+  
+  .st p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .st-bound {
+    box-shadow: -0.05rem -0.05rem 2px #415ca5,
+      0.05rem -0.05rem 2px #415ca5,
+      -0.05rem 0.05rem 2px #415ca5,
+      0.05rem 0.05rem 2px #415ca5;
+    height: 5px;
+  }
+  
+  .st-bound-full {
+    width: 100%;
+    margin: auto;
+    margin-bottom: -1.2rem;
+    max-width: 612px;
+    margin-left: 5px;
+  }
+  
+  .st-bound-mini {
+    margin-top: 0.5rem;
+  }
+  
+  .st-bound-left {
+    float: left;
+    width: 99px;
+    position: relative;
+    left: 5px;
+  }
+  
+  .st-bound-right {
+    float: right;
+    width: 103px;
+    left: 0.3rem;
+    position: relative;
+  }
+  
+  .st-bottom {
+    clear: both;
+    top: -3.75rem;
+    position: relative;
+    left: .6rem;
+    letter-spacing: 2px;
+  }
+  
+  .st-drop {
+    line-height: 0;
+    position: relative;
+    top: 1.55rem;
+  }
+  
+  .st-stranger-s {
+    font-size: 10.5rem;
+    letter-spacing: -8px;
+  }
+  
+  .st-stranger-t {
+    letter-spacing: 0;
+  }
+  
+  .st-stranger-n {
+    letter-spacing: -5px;
+  }
+  
+  .st-stranger-g {
+    letter-spacing: 0;
+  }
+  
+  .st-stranger-r-2 {
+    font-size: 10.5rem;
+    right: 0.2rem;
+  }
+  
+  .st-things-t {
+    font-size: 104%;
+    letter-spacing: 2px;
+  }
+  
+  .st-things-n {
+    letter-spacing: -5px;
+  }
+  
+  .st-things-g {
+    letter-spacing: -3px;
+  }
+  
