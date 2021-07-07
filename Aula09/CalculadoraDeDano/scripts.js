@@ -1,5 +1,5 @@
 const vidaPorPersonagem = {
-    'globin': 8,
+    'goblin': 8,
     'orc': 12,
     'feiticeira': 18,
 };
@@ -57,9 +57,9 @@ function calcularDano() {
     let resultado = 'Dano: ' + danoTotal + '! ';
 
     if (danoTotal >= vidaPersonagem) {
-        resultado += 'Parab�ns, voc� matou ' + personagemSelecionado;
+        resultado += 'Parabéns, você matou ' + personagemSelecionado;
     } else {
-        resultado += 'Putz, n�o foi dessa vez, tente novamente!';
+        resultado += 'Putz, não foi dessa vez, tente novamente!';
     }
 
     document.getElementById('dano').innerHTML = resultado;
